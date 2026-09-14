@@ -1,0 +1,37 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <OutputType>Exe</OutputType>
+    <TargetFramework>net8.0</TargetFramework>
+    <RootNamespace>DeadsoulsAgent</RootNamespace>
+    <AssemblyName>agent</AssemblyName>
+    <Nullable>disable</Nullable>
+    <ImplicitUsings>disable</ImplicitUsings>
+    <LangVersion>latest</LangVersion>
+    <PublishSingleFile>true</PublishSingleFile>
+    <SelfContained>true</SelfContained>
+    <InvariantGlobalization>true</InvariantGlobalization>
+    <DebugType>none</DebugType>
+    <Deterministic>true</Deterministic>
+    <!-- net8.0 single-file self-contained payload. Build with:
+         dotnet publish -r &lt;rid&gt; -c Release -p:PublishSingleFile=true
+         -p:PublishTrimmed=true (plus the self-contained flag).
+         Windows IL agent (agent.bin) is built separately with csc.exe, NOT this project. -->
+  </PropertyGroup>
+
+  <!-- Platform defines driven by the publish RID so the CLI stays the user's
+       canonical command (dotnet publish -r &lt;rid&gt; ...). -->
+  <PropertyGroup>
+    <DefineConstants Condition="$(RuntimeIdentifier.StartsWith('linux'))">$(DefineConstants);LINUX</DefineConstants>
+    <DefineConstants Condition="$(RuntimeIdentifier.StartsWith('osx'))">$(DefineConstants);MACOS</DefineConstants>
+  </PropertyGroup>
+
+  <!-- Only the agent sources go into the payload. C2Server.cs (console C2,
+       csc/.NET Framework) and DeadsoulsExplorer.cs (WinForms GUI) are built
+       separately with csc.exe - never part of the net8.0 agent payload. -->
+  <ItemGroup>
+    <Compile Remove="C2Server.cs" />
+    <Compile Remove="DeadsoulsExplorer.cs" />
+  </ItemGroup>
+
+</Project>
