@@ -1,0 +1,223 @@
+├── Classical
+│   ├── Linear Search
+│   ├── Binary Search
+│   ├── Interpolation Search
+│   ├── Jump Search
+│   ├── Exponential Search
+│   ├── Ternary Search
+│   ├── BFS (Breadth-First Search)
+│   ├── DFS (Depth-First Search)
+│   ├── UCS (Uniform Cost Search)
+│   ├── IDDFS (Iterative Deepening DFS)
+│   ├── Bidirectional Search
+│   ├── Recursive Best-First Search
+│
+├── Heuristic / Informed
+│   ├── A* Search
+│   ├── IDA* (Iterative Deepening A*)
+│   ├── Greedy Best-First Search
+│   ├── Weighted A*
+│   ├── SMA* (Simplified Memory-Bounded A*)
+│   ├── Anytime Repairing A*
+│   ├── Real-Time A*
+│
+├── Graph Algorithms
+│   ├── Dijkstra's Algorithm
+│   ├── Bellman-Ford Algorithm
+│   ├── Hidden Markov Model
+│   ├── Reinforcement Learning (Markov Decision Process)
+│   ├── Bellman-Ford Algorithm
+│   ├── Floyd-Warshall (All-Pairs Shortest Path)
+│   ├── Johnson’s Algorithm
+│   ├── Tarjan’s (SCC detection)
+│   ├── Kosaraju’s (SCC detection)
+│   ├── Prim's / Kruskal's (MST)
+│   ├── Eulerian / Hamiltonian Path Search
+│
+├── Routing Algorithms
+│   ├── JPS (Jump Point Search)
+│   ├── Theta*
+│   ├── ALT (A*, Landmarks, Triangle inequality)
+│   ├── CH (Contraction Hierarchies)
+│   ├── HPA* (Hierarchical Pathfinding A*)
+│   ├── D* Lite, Field D*
+│   ├── Lifelong Planning A*
+│
+├── AI & Game Search
+│   ├── Minimax
+│   ├── Alpha-Beta Pruning
+│   ├── Negamax
+│   ├── MCTS (Monte Carlo Tree Search)
+│   ├── Expectimax
+│   ├── Beam Search
+│   ├── Principal Variation Search
+│   ├── Killer Heuristic
+│
+├── CSP Solvers (Constraint Satisfaction Problems)
+│   ├── Backtracking Search
+│   ├── Forward Checking
+│   ├── Arc Consistency (AC-3, AC-4)
+│   ├── MAC (Maintaining Arc Consistency)
+│   ├── Dynamic Variable Ordering
+│   ├── Conflict-Directed Backjumping
+│
+├── Metaheuristic / Probabilistic
+│   ├── Simulated Annealing
+│   ├── Hill Climbing
+│   ├── Genetic Algorithms
+│   ├── Tabu Search
+│   ├── Random Walk
+│   ├── Ant Colony Optimization
+│   ├── Particle Swarm Optimization
+│   ├── Differential Evolution
+│   ├── GRASP (Greedy Randomized Adaptive Search)
+│
+├── Parallel / Distributed Search
+│   ├── Parallel A* / Distributed A*
+│   ├── MapReduce-Based Search
+│   ├── CUDA GPU Search (brute-force, pattern-based)
+│   ├── Concurrent DFS / BFS (multi-threaded)
+│   ├── Distributed Hash Table Search (Kademlia DHT)
+│   ├── Work Stealing Scheduler
+│
+├── Memory-Based / Optimized Lookup
+│   ├── Hash Table Search
+│   │   ├── Open Addressing
+│   │   ├── Separate Chaining
+│   ├── Bloom Filter Search
+│   │   ├── Probabilistic Membership Checking
+│   │   ├── Counting Bloom Filter
+│   │   ├── Scalable Bloom Filter
+│   ├── LRU / LFU Cache-Based Search
+│
+├── Sorting-Based Search
+│   ├── Binary Search on Sorted Arrays
+│   ├── Exponential Search
+│   ├── Fibonacci Search
+│   ├── Interpolation Search
+│   ├── Ternary Search
+│   ├── K-way Merge Search
+│   ├── Fractional Cascading
+│
+├── Cryptographic Search
+│   ├── Distinguished Points Method
+│   │   ├── Van Oorschot-Wiener
+│   │   ├── Rainbow Table + DP Filtering
+│   ├── Time-Memory Tradeoff Techniques
+│   │   ├── Hellman Tables
+│   │   ├── Rainbow Tables
+│   ├── Brute-force Key Search
+│   ├── Meet-in-the-Middle Search
+│   ├── BSGS (Baby-Step Giant-Step)
+│   ├── Pollard's Rho for Discrete Log
+│
+├── Machine Learning Algorithms
+│   ├── Supervised Learning
+│   │   ├── Linear Regression
+│   │   ├── Logistic Regression
+│   │   ├── Decision Trees
+│   │   ├── Random Forests
+│   │   ├── Gradient Boosting (XGBoost, LightGBM, CatBoost)
+│   │   ├── Support Vector Machines (SVM)
+│   │   ├── k-Nearest Neighbors (k-NN)
+│   │   ├── Naive Bayes
+│   │   ├── Neural Networks (MLP, CNN, RNN, LSTM, Transformer)
+│   │
+│   ├── Unsupervised Learning
+│   │   ├── k-Means Clustering
+│   │   ├── Hierarchical Clustering
+│   │   ├── DBSCAN
+│   │   ├── Gaussian Mixture Models
+│   │   ├── Autoencoders
+│   │
+│   ├── Reinforcement Learning
+│   │   ├── Q-Learning
+│   │   ├── Deep Q-Networks (DQN)
+│   │   ├── Policy Gradient Methods
+│   │   ├── Actor-Critic (A2C, A3C, PPO)
+│   │   ├── Monte Carlo RL
+│   │
+│   ├── Ensemble & Hybrid
+│       ├── Bagging
+│       ├── Boosting
+│       ├── Stacking
+│
+├── Signal Processing & FFT
+│   ├── Fast Fourier Transform (FFT)
+│   │   ├── Cooley-Tukey FFT
+│   │   ├── Bluestein’s Algorithm
+│   │   ├── Rader’s Algorithm
+│   │   ├── Split-Radix FFT
+│   │   ├── Mixed-Radix FFT
+│   │   ├── FFTW (Practical FFT Library)
+│   ├── Inverse FFT (IFFT)
+│   ├── Short-Time Fourier Transform (STFT)
+│   ├── Fast Hartley Transform (FHT)
+│   ├── Wavelet Transform
+│   ├── Chirp Z-Transform
+│   ├── Walsh-Hadamard Transform
+│
+├── Networking / Packet Routing & Reckoning
+│   ├── Packet Discovery
+│   │   ├── ARP (Address Resolution Protocol)
+│   │   ├── RARP (Reverse ARP)
+│   │   ├── ICMP Echo / Traceroute (Packet Path Discovery)
+│   │   ├── SNMP-based Network Discovery
+│   │   ├── Packet Capture & Filtering (BPF, eBPF)
+│   │
+│   ├── Routing Algorithms (Networks)
+│   │   ├── Distance Vector Routing (RIP, Bellman-Ford style)
+│   │   ├── Link-State Routing (OSPF, IS-IS, Dijkstra style)
+│   │   ├── Path-Vector Routing (BGP)
+│   │   ├── Flooding & Gossip Protocols
+│   │   ├── Source Routing
+│   │   ├── Multipath Routing (ECMP, Valiant Load Balancing)
+│   │   ├── Geographic Routing (GPSR, Compass Routing)
+│   │
+│   ├── Mobile & Ad-Hoc Routing
+│   │   ├── DSR (Dynamic Source Routing)
+│   │   ├── AODV (Ad-hoc On-demand Distance Vector)
+│   │   ├── OLSR (Optimized Link State Routing)
+│   │   ├── ZRP (Zone Routing Protocol)
+│   │   ├── MANET / VANET-specific Routing
+│   │
+│   ├── Reckoning & Estimation
+│       ├── TTL-based Hop Counting
+│       ├── Delay & Jitter Estimation
+│       ├── Round-Trip Time (RTT) Measurements
+│       ├── Packet Loss Estimation
+│       ├── Network Tomography (Path Inference)
+│       ├── Geolocation-based Packet Tracking
+│       ├── Clock Skew & Time-Sync Estimation (NTP/PTP)
+│
+├── Consensus Mechanisms
+│   ├── Classical Distributed Consensus
+│   │   ├── Paxos
+│   │   ├── Raft
+│   │   ├── Viewstamped Replication (VSR)
+│   │   ├── Byzantine Fault Tolerance (PBFT, BFT-SMaRt)
+│   │   ├── Lamport Clocks & Vector Clocks
+│   │
+│   ├── Blockchain Consensus
+│   │   ├── Proof of Work (PoW)
+│   │   ├── Proof of Stake (PoS)
+│   │   ├── Delegated Proof of Stake (DPoS)
+│   │   ├── Proof of Authority (PoA)
+│   │   ├── Proof of Space / Storage
+│   │   ├── Proof of Elapsed Time (PoET)
+│   │   ├── Hybrid PoW/PoS
+│   │
+│   ├── Advanced / Modern Consensus
+│       ├── Tendermint (BFT + PoS)
+│       ├── HotStuff (used in Libra/Diem)
+│       ├── Algorand (VRF-based)
+│       ├── Avalanche (repeated sub-sampled voting)
+│       ├── HoneyBadger BFT (asynchronous consensus)
+│       ├── DAG-based Consensus (IOTA Tangle, Hashgraph)
+│       ├── Federated Consensus (Ripple, Stellar)
+│       ├── Committee-based Consensus
+│ 
+└── Quantum (Theoretical)
+    ├── Grover’s Algorithm (O(√n) Unstructured Search)
+    ├── Quantum Walk Search
+    ├── Amplitude Amplification

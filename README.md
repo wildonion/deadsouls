@@ -25,3 +25,10 @@ C:\Windows\Microsoft.NET\Framework64\v4.0.30319\csc.exe /nologo /target:winexe /
 ./C2Server.exe --key verysecrethighentropyrandomkey
 ```
 
+## Devices:
+
+- Flipper 0 and 1 w/ BFFB (https://justcallmekokollc.com/products/flipper-zero-bffb-v2)
+
+- Flipper 0 and 1 w/ Dual Touch v3 (https://awokdynamics.com/products/dual-touch-v3)
+
+- HackRF Pro + PortaPack H4M Pro | uConsole AIO V2 | BladeRF 2.0 micro xA4 | Wifi PineApple & RubberDockyUsb
