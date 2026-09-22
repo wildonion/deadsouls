@@ -1,0 +1,16 @@
+
+
+
+
+> lowlevel and industrial coding with bitWising (bitExt, bitCombo, bitQt, bigInt, hex, byteFraming, bitStream, byteHex) for:
+    - gpu based graph engines like game and graph algos like tsp with derivation and integration using bitWising    
+    - hide the real information between noisy objects something like evm using qrcode file sharing, codec and compressor like raptorQ protobuf gzip brotli deltaEncoding
+    - AV cracking patch kernel (il or machine code of hexShellcode of asm) for deadsouls with license and lazagne like password finder
+    - an actor agent (threadpool agent & msg handler) based GSTM (redis & neo4j w/ graph search algos) microkernel:
+        > atomic tx pipeline using saga pg tx based queue outbox inbox tables using a pg back thread poller to send data or over redis rmq
+        > plugin gen interface middleware macro closure with on() event handler and lifecycle methods as dll .so asm il for domain logics talk over event bus like redis rmq
+        > ddd onion class layers:
+            Api (Web Handlers Controllers): send request command to Order Handlers and Services
+            |-> App (CQRS, DTOs Contracts Interfaces Abstracts): Handlers and Services like CancelOrderHandler/CreateOrderHandler handles command and build AggregateRoot and call repo db
+                |-> Domain (Logics): Order AggregateRoot, Money ValueObjects and OrderItem Domain Entity Objects and Events
+                    |-> Infra: OrderRepository : IOrderRepository, OrderConfiguration : IEntityTypeConfiguration<Order> -> db / stdio / ws rmq redis http telebot / worker event loop and handler with cronjob
