@@ -6,7 +6,8 @@
 > device <----packet----> phone+vpn; for the forwarding use ssh in the device so we could use phone as all-open server  
 > socks5 reverse port forwarding with chisel tunneling over tcp udp grpc ws sse https (act like 443 normal packets) like deadsouls ssh, chisel and ligolo with encrypted (onion.go (zkp/entropy->mnemo->seed(pbkdf2)->ed25519Keypair->aes256GsmHMAC)) channel
 > new vpn tunneling protocol (local packet forwarding) over tcp udp and bale with tunMode with killSwitch like p2p deeperNetwork onchain vpn router tailScale torV2Ray using nftables, zkp, chacha20, chachapoly, noise, ipPool, ovpn, l2tp, mikrotik, mDNS, zeroTrust, hub-and-spoke, starLink, iptables, nat, dns concepts, upnp and all cloudflare tools modules plugins
-> lowlevel and industrial coding with bitWising (bitExt, bitCombo, bitQt, bigInt, hex, byteFraming, bitStream, byteHex) for:
+> lowlevel and industrial netting and gpu engines with bitWising (bitExt, bitCombo, bitQt, bigInt, hex, byteFraming, bitStream, byteHex) for:
+    - sources: https://github.com/wildonion/harakiri | https://github.com/wildonion/kagerou
     - gpu based graph engines like game and graph algos like tsp with derivation and integration using bitWising    
     - hide the real information between noisy objects something like evm using qrcode file sharing, codec and compressor like raptorQ protobuf gzip brotli deltaEncoding
     - AV cracking patch kernel (il or machine code of hexShellcode of asm) for deadsouls with license and lazagne like password finder
