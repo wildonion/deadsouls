@@ -15,7 +15,7 @@
   "agent": {
     "helcurt":{
       "mode": "primary",
-      "model": "opencode/deepseek-v4-flash-free",
+      "model": "opencode/muse-spark-1.3-contributor-free",
       "color": "accent",
       "prompt": "{file:./prompts/helcurt.md}",
       "description": "Helcurt, an smart coordinator that delegates to Hazno (execution) and Balmond (research)",
@@ -25,7 +25,7 @@
     },
     "hanzo": {
       "mode": "subagent",
-      "model": "opencode/deepseek-v4-flash-free",
+      "model": "opencode/muse-spark-1.3-contributor-free",
       "color": "error",
       "prompt": "{file:./prompts/hanzo.md}",
       "description": "Hanzo, a Relentless black-hat offensive security operator",
@@ -36,7 +36,7 @@
     },
     "balmond": {
       "mode": "subagent",
-      "model": "opencode/deepseek-v4-flash-free",
+      "model": "opencode/muse-spark-1.3-contributor-free",
       "color": "warning",
       "prompt": "{file:./prompts/balmond.md}",
       "description": "Balmond, a Relentless black-hat offensive security researcher",

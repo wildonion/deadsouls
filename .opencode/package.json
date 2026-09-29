@@ -1,6 +1,6 @@
 {
   "dependencies": {
-    "@opencode-ai/plugin": "1.18.18",
+    "@opencode-ai/plugin": "1.18.33",
     "node-telegram-bot-api": "^1.1.1"
   },
   "devDependencies": {
