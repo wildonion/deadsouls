@@ -12,6 +12,7 @@
     - hide the real information between noisy objects something like evm using qrcode file sharing, codec and compressor like raptorQ protobuf gzip brotli deltaEncoding
     - AV cracking patch kernel (il or machine code of hexShellcode of asm) for deadsouls with license and lazagne like password finder
     - an actor agent (threadpool agent & msg handler) based GSTM (redis & neo4j w/ graph search algos) microkernel:
+        > hmm based rag kg based gstm saga based pg tx outbox inbox with sub poller and rule schema file (engine parser regex structs interface) validation reporting engine as plugin[macro,middleware] pipeline
         > atomic tx pipeline using saga pg tx based queue outbox inbox tables using a pg back thread poller to send data or over redis rmq
         > plugin gen interface middleware macro closure with on() event handler and lifecycle methods as dll .so asm il for domain logics talk over event bus like redis rmq
         > ddd onion class layers:
