@@ -2,17 +2,17 @@
 
 
 > interactive live streaming backend and tunneling like in dorsan and any desk, camera360, discord, meet, instaLive, twitch, youtube over p2p [quic tcp udp mudp kdht mesh, wrtc(pion, rtmp srtp sfu mcu stun turn stls dtls ice), ws], httpWsSse, tcp, udp, grpc, redis, rmq and kagerou sdk
-> p2p mesh object storage IDM like updown and matching engine with framing fft hmm signal packet reckoning lag lossing routing cycle path detection interpolation and redisPg vector rag and neo4j kg
+> p2p mesh for object storage like ipfs, IDM like updown and matching engine with framing fft hmm signal packet reckoning lag lossing routing cycle path detection interpolation and redisPg vector rag and neo4j kg
 > device <----packet----> phone+vpn; for the forwarding use ssh in the device so we could use phone as all-open server  
-> socks5 reverse port forwarding with chisel tunneling over tcp udp grpc ws sse https (act like 443 normal packets) like deadsouls ssh, chisel and ligolo with encrypted (onion.go (zkp/entropy->mnemo->seed(pbkdf2)->ed25519Keypair->aes256GsmHMAC)) channel
-> new vpn tunneling protocol (local packet forwarding) over tcp udp and bale with tunMode with killSwitch like p2p deeperNetwork onchain vpn router tailScale torV2Ray using nftables, zkp, chacha20, chachapoly, noise, ipPool, ovpn, l2tp, mikrotik, mDNS, zeroTrust, hub-and-spoke, starLink, iptables, nat, dns concepts, upnp and all cloudflare tools modules plugins
+> tui based socks5 reverse port forwarding tunneling over tcp udp grpc ws sse https (act like 443 normal packets) like deadsouls ssh, chisel and ligolo with encrypted (onion.go (zkp/entropy->mnemo->seed(pbkdf2)->ed25519Keypair->aes256GsmHMAC)) channel
+> new vpn tunneling protocol (local packet forwarding) over tcp udp and bale with tunMode with killSwitch like p2p deeperNetwork onchain vpn router tailScale torV2Ray using nftables, zkp, chacha20, chachapoly, noise, ipPool, ovpn, l2tp, mikrotik, mDNS, zeroTrust, hub-and-spoke, starLink?, iptables, nat, dns concepts, upnp and all cloudflare tools modules plugins
 > lowlevel and industrial netting and gpu engines with bitWising (bitExt, bitCombo, bitQt, bigInt, hex, byteFraming, bitStream, byteHex) for:
     - sources: https://github.com/wildonion/harakiri | https://github.com/wildonion/kagerou
     - gpu based graph engines like game and graph algos like tsp with derivation and integration using bitWising    
     - hide the real information between noisy objects something like evm using qrcode file sharing, codec and compressor like raptorQ protobuf gzip brotli deltaEncoding
     - AV cracking patch kernel (il or machine code of hexShellcode of asm) for deadsouls with license and lazagne like password finder
     - an actor agent (threadpool agent & msg handler) based GSTM (redis & neo4j w/ graph search algos) microkernel:
-        > hmm based rag kg based gstm saga based pg tx outbox inbox with sub poller and rule schema file (engine parser regex structs interface) validation reporting engine as plugin[macro,middleware] pipeline
+        > hmm rag kg based gstm with saga based tx pg outbox inbox sub poller and rule schema file (engine parser regex structs interface) validation reporting engine as plugin[macro,middleware] pipeline
         > atomic tx pipeline FRAMEWORK using saga pg tx based queue outbox inbox tables using a pg back thread poller to send data or over redis rmq
         > plugin gen interface middleware macro closure with on() event handler and lifecycle methods as dll .so asm il for domain logics talk over event bus like redis rmq
         > ddd onion class layers:
