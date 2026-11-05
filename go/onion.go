@@ -282,25 +282,26 @@ func chunking() {
 	sigChan := make(chan struct{}, 1)
 
 	// task chunking between threads
-	type Task func()
-	batchChan := make(chan []Task, 100)
+	type Task[T interface{}] func() (T, error)
+	batchChan := make(chan []Task[string], 100)
 	totalTasks, batchSize := 20, 5
-	tasks := make([]Task, 100)
-	for i := 0; i < (totalTasks / batchSize); i++ {
+	tasks := make([]Task[string], 100)
+	totalChunks := totalTasks / batchSize // total chunks needs to be sent
+	for i := 0; i < totalChunks; i++ {
 		// 0 * 5 : 0 + 1 * 5 = [0:5]
 		// 1 * 5 : 1 + 1 * 5 = [5:10]
 		// 2 * 5 : 2 + 1 * 5 = [10:15]
 		// 3 * 5 : 3 + 1 * 5 = [15:20]
 		batchChan <- tasks[i*batchSize : (i+1)*batchSize]
 	}
-	handleBatch := func(batch []Task) {
+	handleBatch := func(batch []Task[string]) {
 		defer func() {
 			waiter.Done()
 			<-semChan // once the thread finishes its job release the slot from chan
 		}()
 		// ...
 	}
-	consumer := func(processor func(batch []Task)) {
+	consumer := func(processor func(batch []Task[string])) {
 		// receive from chan
 		for {
 			select {
