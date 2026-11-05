@@ -41,5 +41,5 @@ C:\Windows\Microsoft.NET\Framework64\v4.0.30319\csc.exe /nologo /target:winexe /
     
 - socks5 reverse port forwarding tunneling over tcp udp grpc ws sse https like deadsouls, nested RDPs, chisel ngrok caddy and ligolo with encrypted (zkp/entropy->mnemo->seed(pbkdf2)->ed25519Keypair->aes256GsmHMAC) channel.
     
-- local packet forwarding (new vpn tunneling protocol) over tcp udp quic grpc ws sse https (act like normal packets) like p2p deeperNetwork device router tailScale torV2Ray using nftables, zkp, chacha20, chachapoly, noise, ipPool, ovpn, l2tp, mikrotik, mDNS, zeroTrust, hub-and-spoke, starLink?, iptables, nat, dns concepts, upnp and all cloudflare tools modules plugins.
+- local packet forwarding (new zkp ed25519 p2p based vpn tunneling protocol) over tcp udp quic grpc ws sse https (act like normal packets) like p2p deeperNetwork device router tailScale torV2Ray using nftables, zkp, chacha20, chachapoly, noise, ipPool, ovpn, l2tp, mikrotik, mDNS, zeroTrust, hub-and-spoke, starLink?, iptables, nat, dns concepts, upnp and all cloudflare tools modules plugins.
 
