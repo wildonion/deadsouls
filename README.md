@@ -33,17 +33,3 @@ C:\Windows\Microsoft.NET\Framework64\v4.0.30319\csc.exe /nologo /target:winexe /
 
 - HackRF Pro + PortaPack H4M Pro | uConsole AIO V2 | BladeRF 2.0 micro xA4 | Wifi PineApple & RubberDockyUsb
 
-## Ideas
-
-> tui webui gpu based engines with tauri wails fynapp with PIAZ (lang & OS) elixir go dotent rs c++ cuda ptx asm for:
-
-- design and build PIAZ lang and os based on docs 
-
-- engine and new lang for signal fft, magnetic fields, math algos, regex dfa nfa turing machine, halting issue and nn weights finding tuning algorithm without training
-
-- live streaming apps over p2p [quic tcp udp mudp kdht mesh, wrtc(pion, rtmp srtp sfu mcu stun turn stls dtls ice), ws], httpWsSse, tcp, udp, grpc, redis, rmq like dorsan, any desk, camera360, discord, meet, instaLive, twitch, youtube with framing fft hmm signal packet reckoning lag lossing routing cycle path detection compressing codec interpolation and kagerou sdk.
-    
-- socks5 reverse port forwarding tunneling over tcp udp grpc ws sse https like deadsouls, nested RDPs, chisel ngrok caddy and ligolo with encrypted (zkp/entropy->mnemo->seed(pbkdf2)->ed25519Keypair->aes256GsmHMAC) channel.
-    
-- local packet forwarding (new zkp ed25519 p2p based vpn tunneling protocol) over tcp udp quic grpc ws sse https (act like normal packets) like p2p deeperNetwork device router tailScale torV2Ray using nftables, zkp, chacha20, chachapoly, noise, ipPool, ovpn, l2tp, mikrotik, mDNS, zeroTrust, hub-and-spoke, starLink?, iptables, nat, dns concepts, upnp and all cloudflare tools modules plugins.
-
